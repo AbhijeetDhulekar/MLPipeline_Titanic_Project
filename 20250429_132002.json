@@ -1,0 +1,63 @@
+{
+  "version_id": "20250429_132002",
+  "created_at": "2025-04-29T13:20:02.409097",
+  "metrics": {
+    "accuracy": 0.8461538461538461,
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1": 0.9166666666666666,
+    "n_samples": 26,
+    "positive_class_ratio": 0.8461538461538461,
+    "features_used": [
+      "Pclass",
+      "Sex",
+      "Age",
+      "SibSp",
+      "Parch",
+      "Fare",
+      "Embarked",
+      "Deck",
+      "FamilySize",
+      "IsAlone"
+    ]
+  },
+  "features": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked",
+    "Deck",
+    "FamilySize",
+    "IsAlone"
+  ],
+  "model_type": "<class 'lightgbm.sklearn.LGBMClassifier'>",
+  "hyperparameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 1.0,
+    "importance_type": "split",
+    "learning_rate": 0.1,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": null,
+    "num_leaves": 31,
+    "objective": null,
+    "random_state": 42,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.0,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0
+  },
+  "data_stats": {
+    "n_samples": 26,
+    "start_date": null,
+    "end_date": null
+  }
+}

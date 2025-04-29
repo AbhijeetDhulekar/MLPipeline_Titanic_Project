@@ -1,0 +1,11 @@
+setup.py
+src/__init__.py
+src/api.py
+src/eda_titanic.py
+src/preprocessing.py
+src/schemas.py
+src/train.py
+titanic_mlops.egg-info/PKG-INFO
+titanic_mlops.egg-info/SOURCES.txt
+titanic_mlops.egg-info/dependency_links.txt
+titanic_mlops.egg-info/top_level.txt
